@@ -7,16 +7,16 @@ export const CallToAction = () => {
     <section className="my-[100px] md:my-[150px]">
         <h3 className="text-center text-4xl font-bold">Fast and Effective Drainage Repair and Pipe Installation</h3>    
         <div className="flex flex-col gap-y-10 md:flex-row md:justify-center flex-wrap md:gap-x-48 mt-10">
-            <Link href={"#"} className="rounded">
+            <Link href={"#"} className="rounded drop-shadow-lg">
                 <Image className="rounded-t-lg" src={touchPhone} width={400} height={400} alt="touch phone" />
-                <div className="p-4 bg-main rounded-b-lg">
+                <div className="p-4 bg-main rounded-b-lg hover:bg-secondary duration-300">
                     <p className="text-2xl font-bold text-white uppercase text-center">Schedule Online</p>
                 </div>
             </Link>
 
-            <Link href={"#"} className="rounded">
+            <Link href={"#"} className="rounded drop-shadow-lg">
                 <Image className="rounded-t-lg" src={touchPhone} width={400} height={400} alt="touch phone" />
-                <div className="p-4 bg-main rounded-b-lg">
+                <div className="p-4 bg-main rounded-b-lg hover:bg-secondary duration-300">
                     <p className="text-2xl font-bold text-white uppercase text-center">Schedule Online</p>
                 </div>
             </Link>
