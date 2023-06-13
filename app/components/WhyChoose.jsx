@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ImgContact from "../../public/images/why-us.webp"
+import ImgWhyChoose from "../../public/images/why-us.webp"
 import Link from "next/link"
 
 export const WhyChoose = () => {
@@ -8,12 +8,12 @@ export const WhyChoose = () => {
         <h3 className="text-center text-4xl font-bold">Why choose Blessed Solutions?</h3>
 
         <div className="flex bg-gray-100 rounded flex-col lg:flex-row mt-10">
-            <div className="lg:w-1/2 flex justify-center">
-                <Image className="rounded" src={ImgContact} width={700} height={484} alt="Plumbing service in Orlando" />
+            <div className="lg:w-3/5 flex justify-center">
+                <Image className="rounded" src={ImgWhyChoose} width={800} height={551} alt="Why choose Plumbing Service" />
             </div>
-            <div className="lg:w-1/2 p-4">
-                <h1 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Plumbing service in Orlando</h1>
-                <h2 className="text-2xl lg:text-2xl text-main mt-6">Efficient Plumbing Solutions for Your Home or Business</h2>
+            <div className="lg:w-2/5 p-4">
+                <h1 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Professionals in Plumbing services</h1>
+                <h2 className="text-2xl lg:text-2xl text-main mt-6">Learn more about us and all the solutions we offer</h2>
                 <section className="flex flex-col lg:flex-col">
 
                 <div className="text-md lg:text-xl mt-6 lg:mt-10 md:max-w-2xl lg:hyphens-auto flex flex-col" lang="en">
