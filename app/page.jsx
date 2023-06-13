@@ -1,5 +1,4 @@
-import { CallToAction, Footer, Hero, Navbar, Services, WhyChoose } from "./components";
-
+import { CallToAction, Footer, Hero, Navbar, Services, WhyChoose, Contact } from "./components";
 
 export default function Home() {
   return (
@@ -7,7 +6,8 @@ export default function Home() {
         <Hero />
         <CallToAction />
         <Services />
-        <WhyChoose /> 
+        <WhyChoose />
+        <Contact />
       </div>    
   )
 }

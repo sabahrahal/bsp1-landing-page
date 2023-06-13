@@ -5,7 +5,7 @@ export const Services = () => {
     <section className="my-[100px] md:my-[150px]">
         <h3 className="text-center text-4xl font-bold">Explore Our Services</h3>
     
-    <div className="flex flex-wrap gap-x-3 gap-y-24 justify-between mt-10">
+    <div className="flex flex-wrap lg:gap-x-3 gap-y-24 justify-center lg:justify-between mt-10">
 
         <div className="max-w-sm">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-24 h-24 text-main mx-auto mb-2">

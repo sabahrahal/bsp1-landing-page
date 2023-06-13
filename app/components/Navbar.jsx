@@ -11,11 +11,11 @@ export const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
 
     return (
-      <nav className="w-full bg-navbar fixed top-0 z-10">
+      <nav className="w-full bg-navbar fixed top-0 z-10 drop-shadow-lg">
         <div className="container px-2 md:px-0 md:flex md:justify-between md:items-center">
           <div className="flex justify-between items-center">
             <Link href={"/"}>
-              <Image src={logo} height={120} width={120} alt='Logo bsp1'/>
+              <Image className="md:w-[7rem] md:h-[7rem]" src={logo} height={80} width={80} alt='Logo bsp1'/>
             </Link>
 
             <div className="md:hidden">
