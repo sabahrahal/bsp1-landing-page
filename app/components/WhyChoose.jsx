@@ -9,7 +9,7 @@ export const WhyChoose = () => {
 
         <div className="flex bg-gray-100 rounded flex-col lg:flex-row mt-10">
             <div className="lg:w-3/5 flex justify-center">
-                <Image className="rounded" src={ImgWhyChoose} width={800} height={551} alt="Why choose Plumbing Service" />
+                <Image className="rounded" src={ImgWhyChoose} width={800} height={552} alt="Why choose Plumbing Service" />
             </div>
             <div className="lg:w-2/5 p-4">
                 <h1 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Professionals in Plumbing services</h1>
