@@ -9,7 +9,7 @@ export const WhyChoose = () => {
 
         <div className="flex bg-gray-100 rounded flex-col lg:flex-row mt-10">
             <div className="lg:w-1/2 flex justify-center">
-                <Image className="rounded" src={ImgContact} width={700} height={468} alt="Plumbing service in Orlando" />
+                <Image className="rounded" src={ImgContact} width={700} height={484} alt="Plumbing service in Orlando" />
             </div>
             <div className="lg:w-1/2 p-4">
                 <h1 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Plumbing service in Orlando</h1>
