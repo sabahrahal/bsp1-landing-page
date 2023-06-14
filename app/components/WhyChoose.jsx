@@ -8,7 +8,7 @@ export const WhyChoose = () => {
         <h3 className="text-center text-4xl font-bold">Why choose Blessed Solutions?</h3>
 
         <div className="flex bg-gray-100 rounded flex-col lg:flex-row mt-10">
-            <div className="lg:w-3/5 flex justify-center">
+            <div className="lg:w-3/5">
                 <Image className="rounded" src={ImgWhyChoose} width={800} height={552} alt="Why choose Plumbing Service" />
             </div>
             <div className="lg:w-2/5 p-4">

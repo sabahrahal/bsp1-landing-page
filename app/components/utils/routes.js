@@ -6,15 +6,15 @@ export const routes =
         },
         {
             name: 'Services',
-            path: '#' 
+            path: '/services' 
         }, 
         {
             name:'Contact', 
-            path:'#'
+            path:'/contact'
         },
         {
             name:'About Us',
-            path:'#'
+            path:'/about-us'
         }
     ]
   

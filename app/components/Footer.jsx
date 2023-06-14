@@ -6,7 +6,7 @@ export const Footer = () => {
   className="text-center  md:text-left mt-11 bg-navbar">
   {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
   <div className="mx-6 py-10 text-center md:text-left">
-    <div className="grid-1 grid gap-8 md:grid-cols-2 md:grid-cols-4">
+    <div className="grid-1 grid gap-8 md:grid-cols-4">
       {/* <!-- Tailwind Elements section --> */}
       <div>
         <p
@@ -32,7 +32,7 @@ export const Footer = () => {
           Pages
         </p>
         <p className="mb-4 text-white">
-          <Link href="#!"
+          <Link href="/"
             >Home</Link>
         </p>
         <p className="mb-4 text-white">
@@ -88,7 +88,7 @@ export const Footer = () => {
             <path
               d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
           </svg>
-          info@example.com
+          info@bsp1plumbing.com
         </p>
       </div>
     </div>
