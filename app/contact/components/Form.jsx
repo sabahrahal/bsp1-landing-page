@@ -1,46 +1,87 @@
 'use client'
 
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+
 export const Form = () => {
+
+    const form = useRef(); 
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+        emailjs.sendForm('service_hw157uj', 'template_lnorvwb', form.current , 'wZwvlnmhQU1rmwvnd')
+          .then((result) => {
+            form.current.reset(); 
+          }, (error) => {
+            throw new Error(error);
+          });
+    };
+
     return (
-        <form class="">
-            <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+        <form  ref={ form } onSubmit={ sendEmail } >
+            <div className="flex flex-wrap -mx-3 mb-6">
+                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
                         First Name
                     </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
-                        <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" 
+                    name="user_name" 
+                    type="text" 
+                    placeholder="Jane"
+                    minLength={2}
+                    required
+                    />
+
                 </div>
-                <div class="w-full md:w-1/2 px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                        Last Name
+                <div className="w-full md:w-1/2 px-3">
+                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="lastName">
+                        Phone
                     </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"/>
+                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                    name="user_phone" 
+                    type="tel"
+                    placeholder="Doe"
+                    minLength={8}
+                    required
+                    />
                 </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <div className="flex flex-wrap -mx-3 mb-6">
+                <div className="w-full px-3">
+                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="email">
                         E-mail
                     </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email"/>
+                    <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                    name="user_email" 
+                    type="email"
+                    placeholder="janedoe@mail.com"
+                    required
+                    />
                 </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-2">
-                <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <div className="flex flex-wrap -mx-3 mb-2">
+                <div className="w-full px-3">
+                    <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="message">
                         Message
                     </label>
-                    <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+                    <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" 
+                    name="message" 
+                    required
+                    minLength={10} 
+                    placeholder="tell us about what you need..."
+                    ></textarea>
                 </div>
             </div>
-            <div class="md:flex md:items-center">
-                <div class="md:w-1/3">
-                    <button class="w-full lg:w-40 py-4 px-2 bg-main text-white font-bold rounded flex text-lg items-center justify-center uppercase mt-6 hover:bg-secondary duration-300" type="button">
+            <div className="md:flex md:items-center">
+                <div className="md:w-1/3">
+                    <button className="w-full lg:w-40 py-4 px-2 bg-main text-white font-bold rounded flex text-lg items-center justify-center uppercase mt-6 hover:bg-secondary duration-300" 
+                    type="submit"
+                    >
                         Send
                     </button>
                 </div>
-                <div class="md:w-2/3"></div>
+                <div className="md:w-2/3"></div>
             </div>
         </form>
     )

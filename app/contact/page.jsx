@@ -43,8 +43,8 @@ const page = () => {
       
       <div className="my-[100px] md:my-[150px]">
         <h2 className="text-4xl font-bold text-center">Contact Form</h2>
-        <p className="text-center mx-auto max-w-lg my-2">Looking for reliable plumbing services? Contact us now using the convenient options below. 
-        Click the square to visit our preferred social media platform and get in touch. Stay updated with our services too!</p>
+        <p className="text-center mx-auto max-w-lg my-2">Fill out the form below, and we'll get in touch with you as soon as possible. 
+        Tell us about the specific service you need so we can provide you with the most effective response</p>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-10">
           <div className="lg:w-1/2">
             <Form />
