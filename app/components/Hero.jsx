@@ -4,14 +4,14 @@ import Link from "next/link"
 
 export const Hero = () => {
     return (
-        <div className="flex bg-gray-100 rounded flex-col lg:flex-row p-4 lg:pb-0 drop-shadow-lg">
+        <section className="flex bg-gray-100 rounded flex-col lg:flex-row p-4 lg:pb-0 drop-shadow-lg">
             <div className="lg:w-1/3 flex justify-center lg:justify-end">
                 <Image src={ImgBanner} width={408} height={611} alt="Plumbing service in Orlando" />
             </div>
             <div className="lg:w-2/3">
                 <h1 className="text-4xl text-center lg:text-left lg:text-5xl uppercase text-main mt-8">Plumbing service in Orlando</h1>
                 <h2 className="text-2xl lg:text-2xl text-main mt-6">Efficient Plumbing Solutions for Your Home or Business</h2>
-                <section className="flex flex-col-reverse lg:flex-col">
+                <div className="flex flex-col-reverse lg:flex-col">
                     <div>
                         <Link href={"https://wa.link/t65qda"} target="_blank" className="lg:w-40 py-4 px-2 bg-main text-white font-bold rounded flex text-lg items-center justify-center uppercase mt-6 hover:bg-secondary duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 mr-2">
@@ -24,9 +24,9 @@ export const Hero = () => {
                     <p className="text-md lg:text-xl mt-6 lg:mt-10 lg:max-w-2xl text-justify font-bold" lang="en">Discover our website dedicated to premium plumbing solutions, specializing in the repair and installation of pipelines and drainage systems. 
                     Our team of skilled professionals is committed to delivering dependable and cost-effective services tailored to your residential or commercial requirements. 
                     Count on us for affordable and expert plumbing assistance, ensuring smooth and efficient water flow.</p>
-                </section>
+                </div>
             </div>
-        </div>
+        </section>
 
     )
 }

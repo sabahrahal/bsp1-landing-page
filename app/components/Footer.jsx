@@ -36,15 +36,15 @@ export const Footer = () => {
             >Home</Link>
         </p>
         <p className="mb-4 text-white">
-          <Link href="#!" 
+          <Link href="/services" 
             >Services</Link>
         </p>
         <p className="mb-4 text-white">
-          <Link href="#!" 
+          <Link href="/contact" 
             >Contact</Link>
         </p>
         <p className="text-white">
-          <Link href="#!" 
+          <Link href="/about-us" 
             >About Us</Link>
         </p>
       </div>
@@ -59,7 +59,7 @@ export const Footer = () => {
             >WhatsApp</Link>
         </p>
         <p className="mb-4 text-white">
-          <Link href="#!" 
+          <Link href="/contact" 
             >Contact Form</Link>
         </p>
         <p className="mb-4 text-white">
