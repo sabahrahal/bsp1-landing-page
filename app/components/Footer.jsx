@@ -102,7 +102,7 @@ export const Footer = () => {
     </div>
     {/* <!-- Social network icons container --> */}
     <div className="flex justify-center">
-      <Link href="#!" className="mr-6" aria-label="Facebook Link">
+      <Link href="#" className="mr-6" aria-label="Facebook Link">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-4 w-4 text-white"
