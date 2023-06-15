@@ -7,7 +7,7 @@ export const Contact = () => {
     <section className="my-[100px] md:my-[150px]">
         <div className="flex flex-col-reverse gap-y-2 lg:gap-y-0 lg:flex-row items-center">
             <div className="lg:w-2/5">
-                <h3 className="text-4xl font-bold mb-2 text-main text-center lg:text-left">You Have Questions, We Have Answers.</h3>
+                <p className="text-4xl font-bold mb-2 text-main text-center lg:text-left">You Have Questions, We Have Answers.</p>
                 <p className="text-md lg:text-xl font-bold max-w-xl text-justify">Do you have any questions? Contact us through various methods by clicking or tapping on the button and choose the option that suits your needs best. 
                     Our team works diligently to provide you with a prompt response.</p>
                     <Link href={"/contact"} className="w-full lg:w-11/12 mt-6 py-4 px-2 bg-main text-white font-bold rounded flex text-lg items-center justify-center uppercase hover:bg-secondary duration-300">

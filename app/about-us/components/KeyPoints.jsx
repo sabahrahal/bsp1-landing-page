@@ -1,12 +1,13 @@
 import Image from "next/image"
-import ImgWhyChoose from "../../../public/images/why-us.webp"
+import keyPoints from "../../../public/images/why-us.webp"
+import keyPoints2 from "../../../public/images/agent_w.webp"
 
 export const KeyPoints = () => {
     return (
         <section className="mb-[100px] md:mb-[150px]">
             <div className="flex bg-gray-100 rounded flex-col lg:flex-row-reverse mt-10 drop-shadow-lg">
                 <div className="lg:w-3/5">
-                    <Image className="rounded" src={ImgWhyChoose} width={800} height={552} alt="Why choose Plumbing Service" />
+                    <Image className="rounded" src={keyPoints2} width={800} height={552} alt="plumbing service agent" />
                 </div>
                 <div className="lg:w-2/5 p-4">
                     <h2 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8 font-bold">Our Commitment to Quality and Customer Satisfaction</h2>
@@ -28,7 +29,7 @@ export const KeyPoints = () => {
 
             <div className="flex bg-gray-100 rounded flex-col lg:flex-row mt-10 drop-shadow-lg">
                 <div className="lg:w-3/5">
-                    <Image className="rounded" src={ImgWhyChoose} width={800} height={552} alt="Why choose Plumbing Service" />
+                    <Image className="rounded" src={keyPoints} width={800} height={552} alt="plumbing service agent" />
                 </div>
                 <div className="lg:w-2/5 p-4">
                     <h2 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8 font-bold">Why Choose Blessed Solutions Plumbing for Your Plumbing Needs?</h2>

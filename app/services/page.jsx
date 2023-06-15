@@ -1,5 +1,4 @@
-import { CallToAction } from "./components/CallToAction"
-import { Services } from "./components/Services"
+import { CallToAction, Services } from "./components"
 
 const page = () => {
   return (

@@ -1,5 +1,4 @@
-import { CallToAction } from "./components/CallToAction"
-import { KeyPoints } from "./components/KeyPoints"
+import { CallToAction, KeyPoints } from "./components"
 
 const page = () => {
   return (

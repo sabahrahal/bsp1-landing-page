@@ -12,7 +12,7 @@ export const WhyChoose = () => {
                 <Image className="rounded" src={ImgWhyChoose} width={800} height={552} alt="Why choose Plumbing Service" />
             </div>
             <div className="lg:w-2/5 p-4">
-                <h3 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Professionals in Plumbing services</h3>
+                <h2 className="text-4xl text-center lg:text-left md:text-5xl uppercase text-main mt-8">Professionals in Plumbing services</h2>
                 <p className="text-2xl lg:text-2xl text-main mt-6">Learn more about us and all the solutions we offer</p>
                 <div className="flex flex-col lg:flex-col">
 
