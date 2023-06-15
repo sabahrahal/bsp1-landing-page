@@ -24,7 +24,7 @@ export const Navbar = () => {
           </div>
           <div className={`h-screen md:h-auto mt-4 flex flex-col flex-wrap gap-y-4 md:flex-row md:gap-x-8 md:flex ${navbar ? 'block' : 'hidden' }`} >
               {
-                routes.map(route => <Link className="text-white text-lg text-center font-bold" href={route.path} key={route.name} > {route.name} </Link>)
+                routes.map(route => <Link className="text-white text-lg text-center font-bold" onClick={()=>setNavbar(false)} href={route.path} key={route.name} > {route.name} </Link>)
               }
             </div>
         </div>
