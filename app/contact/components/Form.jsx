@@ -10,7 +10,7 @@ export const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         
-        emailjs.sendForm('service_hw157uj', 'template_lnorvwb', form.current , 'wZwvlnmhQU1rmwvnd')
+        emailjs.sendForm('service_mibvdq5', 'template_74xu1at', form.current , 'GlKLxw9tS6ilvZZo7')
           .then((result) => {
             form.current.reset(); 
           }, (error) => {
@@ -19,7 +19,7 @@ export const Form = () => {
     };
 
     return (
-        <form  ref={ form } onSubmit={ sendEmail } >
+        <form  ref={ form } onSubmit={ sendEmail }>
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">

@@ -8,10 +8,27 @@ const inter = Roboto_Condensed({
   display: 'swap'
 })
 
-export const metadata = {
-  title: 'Blessed Solutions Plumbing',
-  description: 'Specializing in the repair and installation of pipelines, plumbing and drainage systems.',
-}
+export const metadata = () => {
+  return {
+    title: {
+      default: "Blessed Solutions Plumbing - Tienda para Mascotas en España",
+    },
+    description:
+      "Specializing in the repair and installation of pipelines, plumbing and drainage systems.",
+    icons: {
+      icon: "./favicon.ico",
+    },
+    generator: "Next.js",
+    applicationName: "BSP1",
+    referrer: "origin-when-cross-origin",
+    keywords: ["Plumbing repairs", "Drain cleaning", "Water heater services", "Pipe and sewer line services", "Bathroom and kitchen plumbing"],
+    authors: [
+      { name: "Sabah Rahal", url: "https://github.com/sabahrahal" },
+    ],
+    colorScheme: "light",
+    creator: "Sabah Rahal",
+  };
+};
 
 export default function RootLayout({ children }) {
   return (

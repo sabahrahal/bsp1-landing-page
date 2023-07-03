@@ -1,4 +1,4 @@
-import { CallToAction, Footer, Hero, Navbar, Services, WhyChoose, Contact } from "./components";
+import { CallToAction, Hero, Services, WhyChoose, Contact } from "./components";
 
 export default function Home() {
   return (
