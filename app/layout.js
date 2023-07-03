@@ -11,7 +11,7 @@ const inter = Roboto_Condensed({
 export const metadata = () => {
   return {
     title: {
-      default: "Blessed Solutions Plumbing - Tienda para Mascotas en España",
+      default: "Blessed Solutions Plumbing",
     },
     description:
       "Specializing in the repair and installation of pipelines, plumbing and drainage systems.",

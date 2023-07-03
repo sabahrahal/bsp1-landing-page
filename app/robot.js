@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       disallow: "",
     },
-    sitemap: "https://www.amigospeludos.es/sitemap.xml",
+    sitemap: "https://www.bsp1plumbing.com/sitemap.xml",
   };
 }

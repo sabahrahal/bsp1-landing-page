@@ -1,19 +1,19 @@
 export default function sitemap() {
   const urls = [
     {
-      url: "https://www.amigospeludos.es/",
+      url: "https://www.bsp1plumbing.com/",
       lastModified: new Date(),
     },
     {
-      url: "https://www.amigospeludos.es/tienda",
+      url: "https://www.bsp1plumbing.com/services",
       lastModified: new Date(),
     },
     {
-      url: "https://www.amigospeludos.es/resenas",
+      url: "https://www.bsp1plumbing.com/contact",
       lastModified: new Date(),
     },
     {
-      url: "https://www.amigospeludos.es/contacto",
+      url: "https://www.bsp1plumbing.com/about-us",
       lastModified: new Date(),
     },
   ];

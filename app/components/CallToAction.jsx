@@ -15,12 +15,12 @@ export const CallToAction = () => {
                 </div>
             </Link>
 
-            <Link href={"tel:+13213161476"} className="rounded drop-shadow-lg">
+            <div className="rounded drop-shadow-lg">
                 <Image className="rounded-t-lg" src={callUs} width={400} height={400} alt="touch phone" />
                 <div className="p-4 bg-main rounded-b-lg hover:bg-secondary duration-300">
                     <p className="text-2xl font-bold text-white uppercase text-center">Call Us +1 (321) 316-1476</p>
                 </div>
-            </Link>
+            </div>
         </div>
     </section>
   )

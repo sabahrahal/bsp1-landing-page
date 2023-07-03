@@ -20,8 +20,8 @@ export const Form = () => {
 
     return (
         <form  ref={ form } onSubmit={ sendEmail }>
-            <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <div className="flex flex-wrap my-6">
+                <div className="w-full md:w-1/2 mb-6 md:pr-3 md:mb-0">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
                         First Name
                     </label>
@@ -34,7 +34,7 @@ export const Form = () => {
                     />
 
                 </div>
-                <div className="w-full md:w-1/2 px-3">
+                <div className="w-full md:w-1/2">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="lastName">
                         Phone
                     </label>
@@ -47,8 +47,8 @@ export const Form = () => {
                     />
                 </div>
             </div>
-            <div className="flex flex-wrap -mx-3 mb-6">
-                <div className="w-full px-3">
+            <div className="flex flex-wrap mb-6">
+                <div className="w-full ">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="email">
                         E-mail
                     </label>
@@ -60,8 +60,8 @@ export const Form = () => {
                     />
                 </div>
             </div>
-            <div className="flex flex-wrap -mx-3 mb-2">
-                <div className="w-full px-3">
+            <div className="flex flex-wrap mb-2">
+                <div className="w-full">
                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="message">
                         Message
                     </label>
