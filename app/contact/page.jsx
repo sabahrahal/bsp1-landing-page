@@ -6,7 +6,7 @@ import imgForm from "../../public/images/contact_us.webp"
 const page = () => {
   return (
     <section className="my-[100px] md:my-[150px]">
-      <h1 className="text-5xl uppercase font-bold my-[100px] md:my-[150px]">Contact Us</h1>
+      <h1 className="text-5xl uppercase font-bold mt-[100px] mb-[50px]">Contact Us</h1>
 
       <h2 className="text-4xl font-bold text-center">Social Media</h2>
       <p className="text-center mx-auto max-w-lg mt-2 mb-10">Looking for reliable plumbing services? Contact us now using the convenient options below. 

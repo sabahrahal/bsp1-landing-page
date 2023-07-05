@@ -15,6 +15,10 @@ export const routes =
         {
             name:'About Us',
             path:'/about-us'
+        },
+        {
+            name:'Vendors',
+            path:'/vendors'
         }
     ]
   

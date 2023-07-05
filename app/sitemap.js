@@ -16,6 +16,10 @@ export default function sitemap() {
       url: "https://www.bsp1plumbing.com/about-us",
       lastModified: new Date(),
     },
+    {
+      url: "https://www.bsp1plumbing.com/vendors",
+      lastModified: new Date(),
+    },
   ];
 
   return urls;

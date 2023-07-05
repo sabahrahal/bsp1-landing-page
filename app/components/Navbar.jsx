@@ -6,9 +6,11 @@ import Image from 'next/image';
 import { routes } from './utils/routes';
 import Link from 'next/link';
 import { NavbarMobile } from './NavbarMobile';
+import { useObserver } from '../hooks/useObserver';
 
 export const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
+    const { isLogged } = useObserver();
 
     return (
       <nav className="w-full bg-navbar fixed top-0 z-10 h-auto drop-shadow-lg py-1">
@@ -26,7 +28,8 @@ export const Navbar = () => {
               {
                 routes.map(route => <Link className="text-white text-lg text-center font-bold" onClick={()=>setNavbar(false)} href={route.path} key={route.name} > {route.name} </Link>)
               }
-            </div>
+              {isLogged && <Link onClick={()=>setNavbar(false)} href={"/dashboard/vendors"} key={"vendors-table"} className="text-white text-lg text-center font-bold">Vendors Table</Link>}
+          </div>
         </div>
       </nav>
     );

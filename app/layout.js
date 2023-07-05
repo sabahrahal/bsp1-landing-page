@@ -24,9 +24,11 @@ export const metadata = () => {
     keywords: ["Plumbing repairs", "Drain cleaning", "Water heater services", "Pipe and sewer line services", "Bathroom and kitchen plumbing"],
     authors: [
       { name: "Sabah Rahal", url: "https://github.com/sabahrahal" },
+      { name: "Jorge Oviedo", url: "https://github.com/jorgeoviedo3" }
     ],
     colorScheme: "light",
     creator: "Sabah Rahal",
+    publisher: "Jorge Oviedo",
   };
 };
 
