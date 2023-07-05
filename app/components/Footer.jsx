@@ -43,9 +43,13 @@ export const Footer = () => {
           <Link href="/contact" 
             >Contact</Link>
         </p>
-        <p className="text-white">
+        <p className="text-white mb-4">
           <Link href="/about-us" 
             >About Us</Link>
+        </p>
+        <p className="text-white">
+          <Link href="/vendors" 
+            >Vendors</Link>
         </p>
       </div>
       {/* <!-- Useful links section --> */}
@@ -63,13 +67,10 @@ export const Footer = () => {
             >Contact Form</Link>
         </p>
         <p className="mb-4 text-white">
-          <Link href="#!" 
-            >Privacy Policy</Link>
+          <Link href="/login" 
+            >LogIn</Link>
         </p>
-        <p className="text-white">
-          <Link href="#!" 
-            >Help</Link>
-        </p>
+
       </div>
       {/* <!-- Contact section --> */}
       <div>
