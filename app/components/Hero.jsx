@@ -6,7 +6,7 @@ export const Hero = () => {
     return (
         <section className="flex bg-gray-100 rounded flex-col lg:flex-row p-4 lg:pb-0 drop-shadow-lg">
             <div className="lg:w-1/3 flex justify-center lg:justify-end">
-                <Image src={ImgBanner} width={408} height={611} alt="Plumbing service in Orlando" />
+                <Image src={ImgBanner} width={408} height={611} loading="eager" alt="Plumbing service in Orlando" />
             </div>
             <div className="lg:w-2/3">
                 <h1 className="text-4xl text-center lg:text-left lg:text-5xl uppercase text-main mt-8">Plumbing service in Orlando</h1>
