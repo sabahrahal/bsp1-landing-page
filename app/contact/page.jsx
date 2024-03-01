@@ -47,6 +47,10 @@ const page = () => {
         Tell us about the specific service you need so we can provide you with the most effective response</p>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-10">
           <div className="lg:w-1/2">
+            <div className="flex flex-col">
+              <Link className="mt-8 xl:text-left text-[30px] xl:text-[60px] text-main lg:mt-2 font-bold" href={'tel:+1(321)3161476'} target="_blank">+1 (321) 3161426</Link>
+              <Link className="xl:text-left text-[30px] xl:text-[60px] text-main lg:mt-2 font-bold" href={'mailto:info@bsp1plumbing.com'} target="_blank">info@bsp1plumbing.com</Link>
+            </div>
             <Form />
           </div>
           <div className="lg:w-1/2 lg:flex lg:justify-end">

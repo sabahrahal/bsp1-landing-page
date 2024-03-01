@@ -9,7 +9,10 @@ export const Hero = () => {
                 <Image src={ImgBanner} width={408} height={611} loading="eager" alt="Plumbing service in Orlando" />
             </div>
             <div className="lg:w-2/3">
-                <h1 className="text-4xl text-center lg:text-left lg:text-5xl uppercase text-main mt-8">Plumbing service in Orlando</h1>
+                <div className="mt-8 lg:mt-2 flex justify-center md:justify-start">
+                    <Link className="text-[40px] md:text-[60px] text-center mt-8 xl:text-left lg:text-[80px] xl:text-[100px] text-main lg:mt-2 font-bold" href={'tel:+1(321)3161476'} target="_blank">+1 (321) 3161426</Link>
+                </div>
+                <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase text-main mt-6">Plumbing service in Orlando</h1>
                 <h2 className="text-2xl lg:text-2xl text-main mt-6">Efficient Plumbing Solutions for Your Home or Business</h2>
                 <div className="flex flex-col-reverse lg:flex-col">
                     <div>
