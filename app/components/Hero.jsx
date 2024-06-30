@@ -2,7 +2,7 @@ import Image from "next/image"
 import ImgBanner from "../../public/images/plumber-banner.webp"
 import Link from "next/link"
 
-export const Hero = () => {
+export const Hero = ({title, subtitle, paragraph}) => {
     return (
         <section className="flex bg-gray-100 rounded flex-col lg:flex-row p-4 lg:pb-0 drop-shadow-lg">
             <div className="lg:w-1/3 flex justify-center lg:justify-end">
@@ -12,8 +12,8 @@ export const Hero = () => {
                 <div className="mt-8 lg:mt-2 flex justify-center md:justify-start">
                     <Link className="text-[40px] md:text-[60px] text-center mt-8 xl:text-left lg:text-[80px] xl:text-[100px] text-main lg:mt-2 font-bold" href={'tel:+1(321)3161476'} target="_blank">+1 (321) 3161426</Link>
                 </div>
-                <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase text-main mt-6">Plumbing service in Orlando</h1>
-                <h2 className="text-2xl lg:text-2xl text-main mt-6">Efficient Plumbing Solutions for Your Home or Business</h2>
+                <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase text-main mt-6">{title}</h1>
+                <h2 className="text-2xl lg:text-2xl text-main mt-6">{subtitle}</h2>
                 <div className="flex flex-col-reverse lg:flex-col">
                     <div>
                         <Link href={"https://wa.link/t65qda"} target="_blank" className="lg:w-40 py-4 px-2 bg-main text-white font-bold rounded flex text-lg items-center justify-center uppercase mt-6 hover:bg-secondary duration-300">
@@ -24,9 +24,7 @@ export const Hero = () => {
                         </Link>
                     </div>
 
-                    <p className="text-md lg:text-xl mt-6 lg:mt-10 lg:max-w-2xl text-justify font-bold" lang="en">Discover our website dedicated to premium plumbing solutions, specializing in the repair and installation of pipelines and drainage systems. 
-                    Our team of skilled professionals is committed to delivering dependable and cost-effective services tailored to your residential or commercial requirements. 
-                    Count on us for affordable and expert plumbing assistance, ensuring smooth and efficient water flow.</p>
+                    <p className="text-md lg:text-xl mt-6 lg:mt-10 lg:max-w-2xl font-bold" lang="en">{paragraph}</p>
                 </div>
             </div>
         </section>

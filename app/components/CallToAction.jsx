@@ -2,25 +2,24 @@ import Image from "next/image"
 import touchPhone from "../../public/images/touch-phone-cta.webp"
 import callUs from "../../public/images/call_us.webp"
 import Link from "next/link"
+import { Card } from "./Card"
 
-export const CallToAction = () => {
+export const CallToAction = ({title}) => {
   return (
     <section className="my-[100px] md:my-[150px]">
-        <h2 className="text-center text-4xl font-bold">Fast and Effective Drainage Repair and Pipe Installation</h2>    
+        <h2 className="text-center text-4xl font-bold">{title}</h2>    
         <div className="flex flex-col gap-y-10 md:flex-row md:justify-center flex-wrap md:gap-x-48 mt-10">
-            <Link href={"/contact#form"} className="rounded drop-shadow-lg">
-                <Image className="rounded-t-lg" src={touchPhone} width={400} height={400} alt="touch phone" />
-                <div className="p-4 bg-main rounded-b-lg hover:bg-secondary duration-300">
-                    <p className="text-2xl font-bold text-white uppercase text-center">Schedule Online</p>
-                </div>
-            </Link>
+            <Card
+                href={'/contact#form'}
+                img={touchPhone}
+                text={'Schedule Online'}
+            />
 
-            <div className="rounded drop-shadow-lg">
-                <Image className="rounded-t-lg" src={callUs} width={400} height={400} alt="touch phone" />
-                <div className="p-4 bg-main rounded-b-lg hover:bg-secondary duration-300">
-                    <p className="text-2xl font-bold text-white uppercase text-center">Call Us +1 (321) 316-1476</p>
-                </div>
-            </div>
+            <Card
+                href={'tel:+13213161476'}
+                img={callUs}
+                text={'Call Us +1 (321) 316-1476'}
+            />
         </div>
     </section>
   )
