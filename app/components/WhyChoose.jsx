@@ -29,8 +29,8 @@ export const WhyChoose = () => {
                     <b>· COMPETITIVE PRICING</b>
                     <p className="text-sm mb-2">Transparent pricing structure, detailed estimates, and exceptional value for your investment.</p>
 
-                    <b>· CUSTOMER SATISFACTION GUARANTEED</b>
-                    <p className="text-sm">Personalized solutions, active listening, and long-term relationships built on excellence.</p>
+                    <b>· WE STRIVE FOR YOUR SATISFACTION</b>
+                    <p className="text-sm">Tailored solutions, attentive listening, and lasting relationships founded on excellence.</p>
                 </div>
 
                     <div>
