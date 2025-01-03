@@ -97,8 +97,8 @@ export const Footer = () => {
 
   {/* <!--Copyright section--> */}
   <div
-    className="flex items-center justify-center p-6 md:justify-between">
-    <div className="mr-12 hidden md:block">
+    className="flex flex-col-reverse gap-6 md:flex-row items-center justify-center py-1 px-6 md:py-6 md:justify-between">
+    <div className="flex justify-center">
       <span className="text-white"><span>©</span> 2023 Copyright: Blessed Solutions Pumbling - License <span className="font-bold">#CFC1432849</span> </span>
     </div>
     {/* <!-- Social network icons container --> */}
