@@ -1,6 +1,6 @@
 export const pageData = {
     'home' : {
-        heroTitle: 'Plumbing service in Orlando',
+        heroTitle: 'Plumbing service in Central florida and west coast Florida',
         hertoSubtitle: 'Efficient Plumbing Solutions for Your Home or Business',
         ctaTitle: 'Fast and Effective Drainage Repair and Pipe Installation',
         heroParagraph: 'Discover our website dedicated to premium plumbing solutions, specializing in the repair and installation of pipelines and drainage systems. Our team of skilled professionals is committed to delivering dependable and cost-effective services tailored to your residential or commercial requirements. Count on us for affordable and expert plumbing assistance, ensuring smooth and efficient water flow.',

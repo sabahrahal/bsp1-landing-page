@@ -99,7 +99,7 @@ export const Footer = () => {
   <div
     className="flex items-center justify-center p-6 md:justify-between">
     <div className="mr-12 hidden md:block">
-      <span className="text-white"><span>©</span> 2023 Copyright: Blessed Solutions Pumbling</span>
+      <span className="text-white"><span>©</span> 2023 Copyright: Blessed Solutions Pumbling - License <span className="font-bold">#CFC1432849</span> </span>
     </div>
     {/* <!-- Social network icons container --> */}
     <div className="flex justify-center">
